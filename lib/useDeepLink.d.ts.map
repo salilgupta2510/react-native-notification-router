@@ -1,0 +1,1 @@
+{"version":3,"file":"useDeepLink.d.ts","sourceRoot":"","sources":["../src/useDeepLink.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,cAAc,EAAE,MAAM,SAAS,CAAC;AAGzC,UAAU,aAAa;IACrB,QAAQ,EAAE,MAAM,GAAG,IAAI,CAAC;IACxB,MAAM,EAAE,cAAc,GAAG,IAAI,CAAC;CAC/B;AAED,wBAAgB,WAAW,IAAI,aAAa,GAAG;IAAE,aAAa,EAAE,MAAM,IAAI,CAAA;CAAE,CA+B3E"}

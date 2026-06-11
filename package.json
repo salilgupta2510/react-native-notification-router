@@ -1,0 +1,54 @@
+{
+  "name": "react-native-notification-router",
+  "version": "0.1.0",
+  "description": "Unified push notifications + deep linking for React Native — FCM token lifecycle, Android channels, cold-start deep link routing, and React Navigation binding in one package.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build",
+    "lint": "eslint src --ext .ts,.tsx"
+  },
+  "keywords": [
+    "react-native",
+    "push-notifications",
+    "deep-linking",
+    "fcm",
+    "apns",
+    "notification-router",
+    "react-navigation",
+    "firebase",
+    "notifee",
+    "cold-start"
+  ],
+  "author": "Salil Gupta",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-native": ">=0.72.0",
+    "@notifee/react-native": ">=7.0.0",
+    "@react-native-firebase/app": ">=18.0.0",
+    "@react-native-firebase/messaging": ">=18.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@notifee/react-native": { "optional": true },
+    "@react-native-firebase/app": { "optional": true },
+    "@react-native-firebase/messaging": { "optional": true }
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "typescript": "^5.0.0"
+  },
+  "files": ["lib"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salilgupta2510/react-native-notification-router.git"
+  },
+  "homepage": "https://github.com/salilgupta2510/react-native-notification-router#readme",
+  "bugs": {
+    "url": "https://github.com/salilgupta2510/react-native-notification-router/issues"
+  },
+  "engines": { "node": ">=16.0.0" },
+  "publishConfig": { "registry": "https://registry.npmjs.org/" }
+}
