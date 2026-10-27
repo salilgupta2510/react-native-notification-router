@@ -1,7 +1,7 @@
 {
   "name": "react-native-notification-router",
-  "version": "0.1.0",
-  "description": "Unified push notifications + deep linking for React Native — FCM token lifecycle, Android channels, cold-start deep link routing, and React Navigation binding in one package.",
+  "version": "0.1.1",
+  "description": "React Native push notifications + deep linking: FCM token lifecycle, Android channels, cold-start deep link routing, and React Navigation integration via one hook.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -20,7 +20,18 @@
     "react-navigation",
     "firebase",
     "notifee",
-    "cold-start"
+    "cold-start",
+    "push-notification",
+    "notifications",
+    "deep-link",
+    "deeplink",
+    "fcm-token",
+    "notification-channel",
+    "notification-tap",
+    "react-native-firebase",
+    "ios",
+    "android",
+    "typescript"
   ],
   "author": "Salil Gupta",
   "license": "MIT",
@@ -40,7 +51,7 @@
     "@types/react": "^19.0.0",
     "typescript": "^5.0.0"
   },
-  "files": ["lib"],
+  "files": ["lib", "CHANGELOG.md"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/salilgupta2510/react-native-notification-router.git"
